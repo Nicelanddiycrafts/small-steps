@@ -1,0 +1,2 @@
+:root{--bg:#896790;--panel:#231b28cc;--text:#f9f7fb;--muted:#d9cbe0;--accent:#bfadcc;--accent-2:#ffe1f5;--focus:#dfbbda;--extra:#f2bae4}#root,body,html{height:100%}body{background:#896790;background:var(--bg);color:#f9f7fb;color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;margin:0}button{font:inherit}.btn{background:#bfadcc;background:var(--accent);border:none;border-radius:10px;color:#0b1020;cursor:pointer;font-weight:700;padding:8px 12px}
+/*# sourceMappingURL=main.5414f2ba.css.map*/
