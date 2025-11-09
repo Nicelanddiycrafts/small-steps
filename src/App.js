@@ -263,7 +263,7 @@ const STORY = [
     dialogue: [],
     choices: [{ text: "Next", next: "help2_value" }]
   }
-,
+  ,
   {
     id: "help2_value",
     title: "Point 2: Let them know how much you value them.",
@@ -520,8 +520,8 @@ function ChoiceWithFeedback({ title, prompt, options, onNext }) {
 
 /* DOs/DON’Ts sorter (button move, then grade) */
 function DosDontsSorter({ items, answerKey, onContinue }) {
-  const [uns, setUns]   = useState(items.map((t, i) => ({ id: i, text: t })));
-  const [dos, setDos]   = useState([]);
+  const [uns, setUns] = useState(items.map((t, i) => ({ id: i, text: t })));
+  const [dos, setDos] = useState([]);
   const [dont, setDont] = useState([]);
   const [graded, setGraded] = useState(false);
 
@@ -579,7 +579,7 @@ function DosDontsSorter({ items, answerKey, onContinue }) {
                   <div key={i.id} style={card}>
                     <div style={{ marginBottom: 10 }}>{i.text}</div>
                     <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-                      <button onClick={() => move(uns, setUns, dos, setDos, i.id)}  style={chipRowBtn}>→ DOs</button>
+                      <button onClick={() => move(uns, setUns, dos, setDos, i.id)} style={chipRowBtn}>→ DOs</button>
                       <button onClick={() => move(uns, setUns, dont, setDont, i.id)} style={chipRowBtn}>→ DON’Ts</button>
                     </div>
                   </div>
@@ -1229,3 +1229,4 @@ export default function EDStoryApp() {
     </div>
   );
 }
+
