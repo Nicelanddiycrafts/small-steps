@@ -1021,7 +1021,7 @@ function SceneView({ scene, onChoose, setBackHandler }) {
           );
 
           // Start with ALL, then apply the timeline overrides
-          imgPath = "/assets/signs/ALL.png";
+          imgPath = "/assets/signs/All.png";
 
           // After "I'm gonna go now" → Without
           if (idxGoNow !== -1 && step >= idxGoNow) {
@@ -1029,7 +1029,7 @@ function SceneView({ scene, onChoose, setBackHandler }) {
           }
           // At "returns briefly" → back to ALL
           if (idxReturns !== -1 && step >= idxReturns) {
-            imgPath = "/assets/signs/ALL.png";
+            imgPath = "/assets/signs/All.png";
           }
           // After "leaves the café" → Without again
           if (idxLeaves !== -1 && step >= idxLeaves) {
