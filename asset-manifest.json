@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/small-steps/static/css/main.5414f2ba.css",
-    "main.js": "/small-steps/static/js/main.b1675ea6.js",
+    "main.js": "/small-steps/static/js/main.55fe576a.js",
     "index.html": "/small-steps/index.html",
     "main.5414f2ba.css.map": "/small-steps/static/css/main.5414f2ba.css.map",
-    "main.b1675ea6.js.map": "/small-steps/static/js/main.b1675ea6.js.map"
+    "main.55fe576a.js.map": "/small-steps/static/js/main.55fe576a.js.map"
   },
   "entrypoints": [
     "static/css/main.5414f2ba.css",
-    "static/js/main.b1675ea6.js"
+    "static/js/main.55fe576a.js"
   ]
 }
